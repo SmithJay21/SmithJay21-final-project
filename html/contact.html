@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h1 class="logo">GreenTech Solutions</h1>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Contact GreenTech Solutions</h2>
+            <p>
+                Have questions about our sustainable technology solutions?
+                Reach out to our team today.
+            </p>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <h2>Contact Information</h2>
+        <div>
+            <article class="card">
+                <h3>Email</h3>
+                <p>support@greentechsolutions.com</p>
+                <h3>Phone</h3>
+                <p>(555) 123-4567</p>
+                <h3>Location</h3>
+                <p>245 Green Energy Drive<br>Phoenix, Arizona 85001</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <h2>Send Us a Message</h2>
+        <form class="contact-form" id="contact-form">
+            <label for="name">Full Name</label>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   placeholder="Enter your name"
+                   required>
+            <label for="email">Email Address</label>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter your email"
+                   required>
+            <label for="message-box">Message</label>
+            <textarea id="message-box"
+                      name="message"
+                      rows="6"
+                      placeholder="Enter your message"
+                      required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="contact-message"></p>
+    </section>
+
+</main>
+<script src="../javascript/script.js"></script>
+</body>
+</html>
